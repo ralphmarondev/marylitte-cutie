@@ -32,8 +32,10 @@ def set_angle(angle):
 try:
     while True:
         set_angle(0)  # Move to 0 degrees
+        print('moving to `0` degrees...')
         time.sleep(1)
         set_angle(180)  # Move to 180 degrees
+        print('moving to `180` degrees...')
         time.sleep(1)
 
 except KeyboardInterrupt:
