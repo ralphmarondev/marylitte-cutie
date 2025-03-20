@@ -3,14 +3,14 @@
 # Wiring (for a 3-wire SG90 servo):
 # VCC (Red) → 5V (Raspberry Pi)
 # GND (Brown/Black) → GND (Raspberry Pi)
-# PWM (Orange/Yellow) → GPIO 18 (You can change this in the code)
+# PWM (Orange/Yellow) → GPIO 24 (You can change this in the code)
 
 import time
 
 import RPi.GPIO as GPIO
 
 # Pin configuration
-SERVO_PIN = 18  # Change to the GPIO pin connected to your servo
+SERVO_PIN = 24  # Change to the GPIO pin connected to your servo
 
 # Set up GPIO
 GPIO.setmode(GPIO.BCM)
